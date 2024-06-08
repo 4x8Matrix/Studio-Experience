@@ -9,11 +9,11 @@ Context.Internal = {}
 Context.Internal.UserId = StudioService:GetUserId()
 Context.Internal.Plugin = newproxy()
 
-Context.Interface.ToolbarName = ""
-Context.Interface.LightButtonIcon = ""
-Context.Interface.DarkButtonIcon = ""
-Context.Interface.ButtonTooltip = ""
-Context.Interface.ButtonName = ""
+Context.Interface.ToolbarName = "Studio XP"
+Context.Interface.LightButtonIcon = "http://www.roblox.com/asset/?id=17765858525"
+Context.Interface.DarkButtonIcon = "http://www.roblox.com/asset/?id=17765858525"
+Context.Interface.ButtonTooltip = "Open the Interface for the Studio XP plugin!"
+Context.Interface.ButtonName = "Open Interface"
 
 Context.Interface.MinimumSize = Vector2.new(300, 300)
 Context.Interface.WidgetTitle = "Studio Experience"
