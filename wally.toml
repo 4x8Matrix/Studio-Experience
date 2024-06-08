@@ -1,0 +1,26 @@
+[package]
+name = "4x8matrix/studio-experience"
+version = "0.1.0"
+realm = "shared"
+description = "A plugin that tracks your time and awards you experience while in-studio."
+registry = "https://github.com/UpliftGames/wally-index"
+licence = "MIT"
+authors = ["AsyncMatrix"]
+
+[dependencies]
+
+# Interface
+React = "jsdotlua/react@17.0.2"
+ReactRoblox = "jsdotlua/react-roblox@17.0.2"
+ReactSpring = "chriscerie/react-spring@2.0.0"
+
+# Framework
+Runtime = "4x8matrix/runtime@1.0.0"
+
+# Miscellaneous
+Console = "4x8matrix/console@2.0.2"
+State = "4x8matrix/state@2.0.1"
+Signal = "sleitnick/signal@1.5.0"
+Promise = "evaera/promise@4.0.0"
+Sift = "csqrl/sift@0.0.5"
+Trove = "sleitnick/trove@1.4.0"

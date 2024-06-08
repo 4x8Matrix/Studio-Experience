@@ -1,0 +1,19 @@
+{
+	"name": "Studio-Experience",
+	"tree": {
+		"$className": "DataModel",
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$ignoreUnknownInstances": true,
+
+			"StudioExperience": {
+				"$path": "Source",
+
+				"Packages": {
+					"$path": "Packages"
+				}
+			}
+		}
+	}
+}
