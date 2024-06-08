@@ -22,7 +22,7 @@ local TimeTracker = require(script.Parent.Singletons.TimeTracker)
 
 local Context = require(script.Parent.Context)
 
-local MINUTES_PER_LEVEL = 30
+local MINUTES_PER_LEVEL = 15
 
 local StudioExperience = {}
 
